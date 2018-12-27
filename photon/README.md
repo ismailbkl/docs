@@ -16,10 +16,10 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`2.0`, `2.0-20181211`, `latest` (*docker/Dockerfile*)](https://github.com/vmware/photon-docker-image/blob/bbb887c5e4b7606bbcaba4c5ca45947246edb2cf/docker/Dockerfile)
--	[`1.0`, `1.0-20181214` (*docker/Dockerfile*)](https://github.com/vmware/photon-docker-image/blob/eaee7d8e1c9dc97b0d0ad9ebba1d0cfe360046dd/docker/Dockerfile)
--	[`dev`, `dev-20180904` (*docker/Dockerfile*)](https://github.com/vmware/photon-docker-image/blob/ef64980d07a68bd0cd97de9224df5c3e62e4db12/docker/Dockerfile)
--	[`3.0`, `3.0-20181218` (*docker/Dockerfile*)](https://github.com/vmware/photon-docker-image/blob/00aef9fc83c54c5766641736bbd91b6842a02394/docker/Dockerfile)
+-	[`dev`, `dev-20180904` (*docker/Dockerfile*)](https://github.com/vmware/photon-docker-image/blob/db65d3cd5a3b959dbda8e0b788f5d5f4063f1c51/docker/Dockerfile)
+-	[`3.0`, `3.0-20181218` (*docker/Dockerfile*)](https://github.com/vmware/photon-docker-image/blob/b1a5026ba79f88de4b4bbb8e0f7bd0fcec8aeb27/docker/Dockerfile)
+
+[![Build Status](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/photon/badge/icon) (`arm64v8/photon` build job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/photon/)
 
 # Quick reference
 
@@ -61,7 +61,7 @@ See the [FAQ](http://vmware.github.io/photon/assets/files/photon_faqs.pdf) for m
 
 ## How to use these images
 
-Photon OS images are intended for use in the **FROM** field of an application's `Dockerfile`. For example, to use VMware Photon 1.0GA as the base of an image, specify `FROM photon:1.0GA`.
+Photon OS images are intended for use in the **FROM** field of an application's `Dockerfile`. For example, to use VMware Photon 1.0GA as the base of an image, specify `FROM arm64v8/photon:1.0GA`.
 
 ## Support
 
