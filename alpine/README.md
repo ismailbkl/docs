@@ -16,15 +16,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`3.6` (*versions/library-3.6/x86_64/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/f57570e8dafadf7ab0116548bfdcc6a9b7ffc25a/versions/library-3.6/x86_64/Dockerfile)
--	[`3.7` (*versions/library-3.7/x86_64/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/04bf61530405ca0b83b5dc887d0b9d0718c151fe/versions/library-3.7/x86_64/Dockerfile)
--	[`3.8`, `latest` (*versions/library-3.8/x86_64/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/d39bc7743955e37ac15e8d82af14410c0b8b9a03/versions/library-3.8/x86_64/Dockerfile)
--	[`edge` (*versions/library-edge/x86_64/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/daf08505ee002002c660f94745d505e2a38ff40a/versions/library-edge/x86_64/Dockerfile)
--	[`3.1` (*versions/library-3.1/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/08dba4ba9bfc6be2de27d732b9d686631d9a6f70/versions/library-3.1/Dockerfile)
--	[`3.2` (*versions/library-3.2/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/4bd5848f3a7b44d6109f5d824f51e6e276a068f5/versions/library-3.2/Dockerfile)
--	[`3.3` (*versions/library-3.3/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/11fd80d9b33d2f22cd401ad440c651ed0a6f26b8/versions/library-3.3/Dockerfile)
--	[`3.4` (*versions/library-3.4/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/084a6b7ada65893959bd6bbd970cb6a1889c4106/versions/library-3.4/Dockerfile)
--	[`3.5` (*versions/library-3.5/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/0e53a746cccd4335c4a6dbdf242484e390f91bd2/versions/library-3.5/Dockerfile)
+**No supported tags found!**
+
+It is very likely that `alpine` does not support the currently selected architecture (`windows-amd64`).
 
 # Quick reference
 
@@ -67,7 +61,7 @@ WARNING:
 Use like you would any other base image:
 
 ```dockerfile
-FROM alpine:3.7
+FROM winamd64/alpine:3.7
 RUN apk add --no-cache mysql-client
 ENTRYPOINT ["mysql"]
 ```
